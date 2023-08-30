@@ -1,0 +1,33 @@
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+h1 {
+    margin: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.footer ul{
+    color: white;
+    line-height: 3;
+    background-color: transparent;
+}
+.btn-menu {
+    border-radius: 100px;
+    position: fixed;
+    bottom: 50%;
+    right: 10%;
+    width: 100px;
+    height: 100px;
+}
+
